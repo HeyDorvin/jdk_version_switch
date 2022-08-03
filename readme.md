@@ -1,6 +1,6 @@
 # Windows一键切换JDK版本
 
-![demo](assets/demo.gif)
+![demo](https://github.com/HeyDorvin/jdk_version_switch/blob/master/demo.gif)
 
 ## 使用说明
 
