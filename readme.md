@@ -25,17 +25,17 @@
 
 ## 自动化脚本
 
-这里我使用了`conda`，以下命令仅供参考。
+将以下内容保存为`bat`文件，以**管理员身份运行**即可。
 
 ```shell
-cmd /k "conda activate common && d: && python D:\PycharmProjects\java_version_switch\main.py"
+cmd /k "python .\main.py"
 ```
 
 ## tips
 
-- Q：更换后未生效
+- 更换后未生效？
 
-  - 检查是否已管理员身份运行
+  - 检查是否以管理员身份运行
 
   - 尝试重新启动命令行
 
