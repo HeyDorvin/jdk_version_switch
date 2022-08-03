@@ -1,5 +1,7 @@
 # Windows一键切换JDK版本
 
+![demo](assets/demo.gif)
+
 ## 使用说明
 
 如果要切换的`JDK`版本下存在`JRE`路径，则一同进行切换。
