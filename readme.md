@@ -12,7 +12,7 @@
 
   ```python
   jdk_dir = {
-      'java8': 'D:\\Program Files\\Java\\jdk1.8.0_333\\',
+      'java8': 'D:\\Program Files\\Java\\jdk1.8.0_333',
       'java18': 'D:\\Program Files\\Java\\jdk18.0.2'
   }
   ```
