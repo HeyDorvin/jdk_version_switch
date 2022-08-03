@@ -25,10 +25,10 @@
 
 ## 自动化脚本
 
-将以下内容保存为`bat`文件，以**管理员身份运行**即可。
+修改脚本地址后，保存为`bat`文件，以**管理员身份运行**即可。
 
 ```shell
-cmd /k "python .\main.py"
+cmd /k "d: && python "D:\java_version_switch\main.py""
 ```
 
 ## tips

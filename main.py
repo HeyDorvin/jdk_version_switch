@@ -1,7 +1,7 @@
 import os
 
 jdk_dir = {
-    'java8': 'D:\\Program Files\\Java\\jdk1.8.0_333\\',
+    'java8': 'D:\\Program Files\\Java\\jdk1.8.0_333',
     'java18': 'D:\\Program Files\\Java\\jdk18.0.2'
 }
 
@@ -10,7 +10,8 @@ if __name__ == '__main__':
     print("JDK version-list:")
     for k in jdk_dir:
         print(k + ' - ' + jdk_dir[k])
-    jdk_version = input("\nPlease choose need switch JDK versions\n")
+
+    jdk_version = input("\nPlease choose one JDK version\n")
 
     if jdk_version in jdk_dir.keys():
         switched_jdk_dir = jdk_dir[jdk_version]
@@ -30,6 +31,6 @@ if __name__ == '__main__':
             if os.path.exists(jre_dir):
                 command = "setx \"JRE_HOME\" \"" + switched_jdk_dir + "\\jre\" /m"
                 os.system(command)
-                print("java version has changed to " + jre_dir)
+                print("JRE_HOME has changed to " + jre_dir)
     else:
-        print("invalid JDK versions")
+        print("invalid JDK version")
