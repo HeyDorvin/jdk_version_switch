@@ -29,15 +29,17 @@
 cmd /k "conda activate common && d: && python D:\PycharmProjects\java_version_switch\main.py"
 ```
 
-## 修改后不生效
+## tips
 
-- 重新启动命令行
+- Q：更换后未生效
 
-- 查看是否还有其他的环境变量
+  - 检查是否已管理员身份运行
 
-  ```shell
-  where java
-  ```
+  - 尝试重新启动命令行
 
-  如果还有其他版本的`JDK`，删除即可。
+  - 查看是否还有其他的环境变量
+
+    ```shell
+    where java
+    ```
 
